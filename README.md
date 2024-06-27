@@ -1,7 +1,9 @@
-This is a project developed to learn how Minecraft works.
-It is written in the Java language and is based on Minecraft 1.8.8.
-It is a Minecraft PVP client.
-You can use it to learn how Minecraft works,
+## Introduction to the Work
+
+1. This is a project developed to learn how Minecraft works.
+2. It is written in the Java language and is based on Minecraft 1.8.8.
+3. It is a Minecraft PVP client.
+4. You can use it to learn how Minecraft works,
 But it may not be used for commercial purposes.
 
 ## Contact Details
