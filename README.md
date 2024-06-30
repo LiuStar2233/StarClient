@@ -25,8 +25,8 @@ This repository is licensed under BSD license.
 ## Changelog
 ### v1.0.0_base
 
-1. The module manager is implemented
-2. Implements the module list
+1. Implemented the module manager
+2. Implemented the module list
 3. Implemented the Logo module
-4. Implement the FPS module
+4. Implemented the FPS module
 5. Implemented the Sprint module
