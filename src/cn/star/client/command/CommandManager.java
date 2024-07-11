@@ -2,6 +2,8 @@ package cn.star.client.command;
 
 import cn.star.client.command.commands.EnableCommand;
 import cn.star.client.command.commands.HelpCommand;
+import cn.star.client.command.commands.KeyBoardCommand;
+
 import java.util.*;
 
 /**
@@ -15,9 +17,11 @@ public class CommandManager {
 
     public void load() {
         HelpCommand helpCommand = new HelpCommand();
-        commandMap.put(helpCommand.getKey(), helpCommand);
         EnableCommand enableCommand = new EnableCommand();
+        KeyBoardCommand keyBoardCommand = new KeyBoardCommand();
+        commandMap.put(helpCommand.getKey(), helpCommand);
         commandMap.put(enableCommand.getKey(), enableCommand);
+        commandMap.put(keyBoardCommand.getKey(), keyBoardCommand);
     }
 
     public boolean run(String message) {

@@ -25,7 +25,7 @@ public class EnableCommand extends Command {
     @Override
     public void run(String[] args) {
         PrintMessage("\n§8You can use these commands to turn modules on and off: \n");
-        PrintMessage("§9Command:");
+        PrintMessage("§9Command:\n");
         PrintMessage("§a|e §8<Mod Name>\n§f");
 
         if (args.length == 1) {

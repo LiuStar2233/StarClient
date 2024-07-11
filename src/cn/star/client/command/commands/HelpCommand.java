@@ -29,9 +29,9 @@ public class HelpCommand extends Command {
         PrintMessage("§bLhx14776409450@163.com or Lhx14776409450@outlook.com \n");
 
         PrintMessage("§8All Command: \n");
-        PrintMessage("§9Enable/disable the module: \n");
+        PrintMessage("§9Enable/disable the module: ");
         PrintMessage("§a|e §8<Mod Name>\n");
-        PrintMessage("§9View module shortcuts: \n");
+        PrintMessage("§9View module shortcuts: ");
         PrintMessage("§a|k §f\n");
 
         System.out.println(Arrays.toString(args));

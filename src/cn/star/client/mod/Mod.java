@@ -1,13 +1,13 @@
 package cn.star.client.mod;
 
+import cn.star.client.mod.mods.Category;
+
 /**
  * Created by IntelliJ IDEA
  *
  * @author LiuStar2233
  * {@code @create} 2024/5/27 下午17:45
  */
-
-import cn.star.client.mod.mods.Category;
 
 public class Mod {
     private final String name;
