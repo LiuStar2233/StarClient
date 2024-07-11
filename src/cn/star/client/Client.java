@@ -15,7 +15,7 @@ import java.time.format.*;
 
 public class Client {
     public static final String NAME = "StarClient";
-    public static final String VERSION_FULL = "V1.0.0_Alpha";
+    public static final String VERSION_FULL = "V1.0.1_Alpha";
     public static final String CLIENT_TITLE = NAME + " | " + VERSION_FULL + " | Minecraft 1.8.8";
     public static final String CLIENT_NAME = Client.NAME + " | " + Client.VERSION_FULL;
     public static DateTimeFormatter Time_formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
@@ -33,10 +33,10 @@ public class Client {
 
     public static void start() {
         modManager = new ModManager();
-        modManager.load();
         configManager = new ConfigManager();
-        configManager.load();
         commandManager = new CommandManager();
+        modManager.load();
+        configManager.load();
         commandManager.load();
         Display.setTitle(CLIENT_TITLE);
         My_Log("Start The Client!!!", "Client Run/INFO");
@@ -44,7 +44,6 @@ public class Client {
 
     public static void stop() {
         configManager.save();
-
         Display.setTitle(CLIENT_TITLE + " ShutDown Client...");
         My_Log("ShutDown The Client!!!", "Client Stop/INFO");
     }
