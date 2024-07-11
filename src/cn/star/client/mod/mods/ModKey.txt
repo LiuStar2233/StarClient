@@ -1,0 +1,25 @@
+combat:
+    AutoAttackMod: NONE
+draw:
+    FPSMod: NONE
+    LogoMod: NONE
+    PosMod: NONE
+    ClickGuiMod: NONE
+    ModListMod: NONE
+    TabMod: Tab
+    InventoryMod: C
+    TargetInfoMod: T
+    KeyBoardMod: X
+movement:
+    SprintMod: V
+    NoFallMod: NONE
+    InventoryMoveMod: NONE
+render:
+    CapeMod: NONE
+    HitBoxMod:NONE
+    SelectBlock: G
+world:
+    XRayMod: NONE
+    AutoMineMod: NONE
+    QuickDropMod: NONE
+    FallWaterMod: Z

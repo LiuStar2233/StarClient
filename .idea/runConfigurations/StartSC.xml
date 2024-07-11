@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="StartSC" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Start" />
+    <module name="StarClient" />
+    <option name="VM_PARAMETERS" value="-Djava.library.path=.\versions\1.8.8\1.8.8-natives" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jars" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

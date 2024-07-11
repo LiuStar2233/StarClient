@@ -1,0 +1,82 @@
+{
+  "AutoAttack": {
+    "key": 0,
+    "enable": false
+  },
+  "Tab": {
+    "key": 15,
+    "enable": true
+  },
+  "ModList": {
+    "key": 0,
+    "enable": false
+  },
+  "Logo": {
+    "key": 0,
+    "enable": true
+  },
+  "FPS": {
+    "key": 0,
+    "enable": true
+  },
+  "Pos": {
+    "key": 0,
+    "enable": true
+  },
+  "Inventory": {
+    "key": 46,
+    "enable": true
+  },
+  "TargetInfo": {
+    "key": 20,
+    "enable": false
+  },
+  "KeyBoard": {
+    "key": 45,
+    "enable": true
+  },
+  "ClickGui": {
+    "key": 0,
+    "enable": false
+  },
+  "Sprint": {
+    "key": 47,
+    "enable": false
+  },
+  "NoFall": {
+    "key": 0,
+    "enable": false
+  },
+  "InventoryMove": {
+    "key": 0,
+    "enable": false
+  },
+  "HitBox": {
+    "key": 0,
+    "enable": false
+  },
+  "Cape": {
+    "key": 0,
+    "enable": true
+  },
+  "SelectBlock": {
+    "key": 34,
+    "enable": true
+  },
+  "QuickDrop": {
+    "key": 0,
+    "enable": false
+  },
+  "FallWater": {
+    "key": 44,
+    "enable": false
+  },
+  "XRay": {
+    "key": 0,
+    "enable": false
+  },
+  "AutoMine": {
+    "key": 0,
+    "enable": false
+  }
+}
