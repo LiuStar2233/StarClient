@@ -20,6 +20,7 @@ public class KeyBoardMod extends Mod{
     public KeyBoardMod() {
         super("KeyBoard", Category.DRAW);
         setKey(Keyboard.KEY_X);
+        setKeyboard("X");
     }
 
     @Override

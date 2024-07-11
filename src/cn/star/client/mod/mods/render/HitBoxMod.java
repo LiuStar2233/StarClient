@@ -21,6 +21,7 @@ public class HitBoxMod extends Mod {
     public HitBoxMod() {
         super("HitBox", Category.RENDER);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

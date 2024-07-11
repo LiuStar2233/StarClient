@@ -22,6 +22,7 @@ public class AutoMineMod extends Mod{
     public AutoMineMod() {
         super("AutoMine", Category.WORLD);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

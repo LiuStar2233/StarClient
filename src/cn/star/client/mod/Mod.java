@@ -2,6 +2,7 @@ package cn.star.client.mod;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/5/27 下午17:45
  */
@@ -13,6 +14,7 @@ public class Mod {
     private final Category category;
     private boolean enable;
     private int key;
+    private String keyboard;
 
     public Mod(String name, Category category) {
         this.name = name;
@@ -21,6 +23,10 @@ public class Mod {
 
     public String getName() {
         return name;
+    }
+
+    public String getKeyboard() {
+        return keyboard;
     }
 
     public boolean isEnable() {
@@ -42,6 +48,10 @@ public class Mod {
 
     public void setKey(int key) {
         this.key = key;
+    }
+
+    public void setKeyboard(String keyboard) {
+        this.keyboard = keyboard;
     }
 
     public Category getCategory() {

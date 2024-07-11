@@ -15,7 +15,6 @@ public class SelectBlockMod extends Mod{
     public SelectBlockMod() {
         super("SelectBlock", Category.RENDER);
         setKey(Keyboard.KEY_G);
+        setKeyboard("G");
     }
-
-
 }

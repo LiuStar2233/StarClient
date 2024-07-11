@@ -19,6 +19,7 @@ public class LogoMod extends Mod {
     public LogoMod() {
         super("Logo", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

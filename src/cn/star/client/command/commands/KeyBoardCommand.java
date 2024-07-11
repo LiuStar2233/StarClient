@@ -22,7 +22,7 @@ public class KeyBoardCommand extends Command{
 
     @Override
     public void run(String[] args) {
-        PrintMessage("\n§6Below is a list of module shortcuts.");
+        PrintMessage("\n§6Below is a list of module shortcuts.\n");
         for (Mod mod : Client.modManager.getMods()) {
             PrintMessage("§7" + mod.getName() + ": " + mod.getKeyboard());
         }

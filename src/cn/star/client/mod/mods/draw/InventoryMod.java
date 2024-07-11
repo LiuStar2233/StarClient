@@ -21,6 +21,7 @@ public class InventoryMod extends Mod {
     public InventoryMod() {
         super("Inventory", Category.DRAW);
         setKey(Keyboard.KEY_C);
+        setKeyboard("C");
     }
 
     @Override

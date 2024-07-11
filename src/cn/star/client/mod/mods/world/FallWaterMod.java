@@ -20,6 +20,7 @@ public class FallWaterMod extends Mod{
     public FallWaterMod() {
         super("FallWater", Category.WORLD);
         setKey(Keyboard.KEY_Z);
+        setKeyboard("Z");
     }
 
     @Override

@@ -9,6 +9,7 @@ import net.minecraft.util.ChatComponentText;
 import java.util.Arrays;
 
 import static cn.star.client.util.UtilTools.MC;
+import static cn.star.client.util.UtilTools.PrintMessage;
 
 /**
  * Created by IntelliJ IDEA
@@ -23,18 +24,16 @@ public class EnableCommand extends Command {
 
     @Override
     public void run(String[] args) {
-        GuiNewChat Chat = MC.ingameGUI.getChatGUI();
-        ChatComponentText ModCommandHelp = new ChatComponentText("You can use these commands to get client-side help documentation.");
-        Chat.printChatMessage(ModCommandHelp);
-        ChatComponentText ModCommand = new ChatComponentText("Command: |h    |help    |H    |HELP    |?");
-        Chat.printChatMessage(ModCommand);
+        PrintMessage("\n§8You can use these commands to turn modules on and off: \n");
+        PrintMessage("§9Command:");
+        PrintMessage("§a|e §8<Mod Name>\n§f");
 
         if (args.length == 1) {
             Mod byName = Client.modManager.getByName(args[0]);
             if (byName != null) {
                 byName.setEnable(!byName.isEnable());
             } else {
-                MC.ingameGUI.getChatGUI().printChatMessage(new ChatComponentText("Mod " + args[0] + " not found!"));
+                PrintMessage("§4Mod " + args[0] + " not found!§f");
             }
         }
         System.out.println(Arrays.toString(args));

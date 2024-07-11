@@ -19,6 +19,7 @@ public class PosMod extends Mod{
     public PosMod() {
         super("Pos", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     public String getPlayerPos() {

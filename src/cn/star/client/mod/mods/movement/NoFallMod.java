@@ -18,6 +18,7 @@ public class NoFallMod extends Mod{
     public NoFallMod() {
         super("NoFall", Category.MOVEMENT);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

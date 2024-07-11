@@ -21,6 +21,7 @@ public class TargetInfoMod extends Mod{
     public TargetInfoMod() {
         super("TargetInfo", Category.DRAW);
         setKey(Keyboard.KEY_T);
+        setKeyboard("T");
     }
 
     @Override

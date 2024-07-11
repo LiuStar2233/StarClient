@@ -20,6 +20,7 @@ public class ModListMod extends Mod {
     public ModListMod() {
         super("ModList", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

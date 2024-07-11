@@ -20,6 +20,7 @@ public class FPSMod extends Mod {
     public FPSMod() {
         super("FPS", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

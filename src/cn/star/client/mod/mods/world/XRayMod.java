@@ -18,6 +18,7 @@ public class XRayMod extends Mod{
     public XRayMod() {
         super("XRay", Category.WORLD);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

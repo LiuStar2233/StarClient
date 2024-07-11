@@ -3,11 +3,13 @@ package cn.star.client.util;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
+import net.minecraft.client.gui.GuiNewChat;
 import net.minecraft.client.gui.ScaledResolution;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.WorldRenderer;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.util.ChatComponentText;
 
 /**
  * Created by IntelliJ IDEA
@@ -81,6 +83,11 @@ public class UtilTools {
         worldRenderer.pos(axisAlignedBB.maxX, axisAlignedBB.minY, axisAlignedBB.maxZ).endVertex();
 
         tessellator.draw();
+    }
+
+    public static void PrintMessage(String message) {
+        GuiNewChat Chat = MC.ingameGUI.getChatGUI();
+        Chat.printChatMessage(new ChatComponentText(message));
     }
 
     public static Minecraft MC = Minecraft.getMinecraft();

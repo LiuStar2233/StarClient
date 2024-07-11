@@ -16,6 +16,7 @@ public class SprintMod extends Mod {
     public SprintMod() {
         super("Sprint", Category.MOVEMENT);
         setKey(Keyboard.KEY_V);
+        setKeyboard("V");
     }
 
     @Override

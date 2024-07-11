@@ -15,7 +15,9 @@ public class CapeMod extends Mod{
     public CapeMod() {
         super("Cape", Category.RENDER);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
+
     static String Cape = "./client/Cape/Mojang.png";
 
     public static String getCape() {

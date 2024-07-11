@@ -20,6 +20,7 @@ public class InventoryMoveMod extends Mod{
     public InventoryMoveMod() {
         super("InventoryMove",Category.MOVEMENT);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

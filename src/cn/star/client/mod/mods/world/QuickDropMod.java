@@ -17,6 +17,7 @@ public class QuickDropMod extends Mod{
     public QuickDropMod() {
         super("QuickDrop", Category.WORLD);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

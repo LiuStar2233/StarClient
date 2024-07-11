@@ -30,6 +30,7 @@ public class TabMod extends Mod {
     public TabMod() {
         super("Tab", Category.DRAW);
         setKey(Keyboard.KEY_TAB);
+        setKeyboard("TAB");
     }
 
     @Override

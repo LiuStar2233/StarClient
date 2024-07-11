@@ -18,6 +18,7 @@ public class AutoAttackMod extends Mod{
     public AutoAttackMod() {
         super("AutoAttack", Category.COMBAT);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override

@@ -19,6 +19,7 @@ public class ClickGuiMod extends Mod{
     public ClickGuiMod() {
         super("ClickGui", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override
