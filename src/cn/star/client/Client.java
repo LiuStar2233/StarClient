@@ -15,7 +15,7 @@ import java.time.format.*;
 
 public class Client {
     public static final String NAME = "StarClient";
-    public static final String VERSION_FULL = "V1.0.0_alpha";
+    public static final String VERSION_FULL = "V1.0.0_Alpha";
     public static final String CLIENT_TITLE = NAME + " | " + VERSION_FULL + " | Minecraft 1.8.8";
     public static final String CLIENT_NAME = Client.NAME + " | " + Client.VERSION_FULL;
     public static DateTimeFormatter Time_formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
