@@ -9,34 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31d4c65d-f1cf-45ac-adc0-099fcc371b60" name="更改" comment="StarClient Alpha 1.0.2">
-      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/1b8221f7-5861-330e-bef0-ac96b785ff27.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/3f66a67c-db6c-36b7-b762-d7a40c17883b.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/stats/1b8221f7-5861-330e-bef0-ac96b785ff27.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/stats/3f66a67c-db6c-36b7-b762-d7a40c17883b.json" afterDir="false" />
+    <list default="true" id="31d4c65d-f1cf-45ac-adc0-099fcc371b60" name="更改" comment="StarClient Alpha 1.0.4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/StarClient/config/Mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/jars/StarClient/config/Mod.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_nether.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/session.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jars/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/jars/usercache.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/star/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/star/client/mod/mods/ModKey.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/mod/mods/ModKey.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/star/client/mod/mods/draw/TargetInfoMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/mod/mods/draw/TargetInfoMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/star/client/util/UtilTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/util/UtilTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/minecraft/client/gui/GuiChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/minecraft/client/gui/GuiChat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/minecraft/client/renderer/EntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/minecraft/client/renderer/EntityRenderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720768368817</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="StarClient Alpha 1.0.4">
+      <option name="closed" value="true" />
+      <created>1720768879575</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720768879575</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,7 +211,8 @@
     <MESSAGE value="." />
     <MESSAGE value="StarClient Alpha 1.0.1" />
     <MESSAGE value="StarClient Alpha 1.0.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="StarClient Alpha 1.0.2" />
+    <MESSAGE value="StarClient Alpha 1.0.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="StarClient Alpha 1.0.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
