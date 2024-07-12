@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="StarClient" />
+      <artifact name="StarClient v1.0.1 Alpha (Minecraft1.8.8)" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,7 +10,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31d4c65d-f1cf-45ac-adc0-099fcc371b60" name="更改" comment="StarClient Alpha 1.0.1">
+      <change afterPath="$PROJECT_DIR$/jars/crash-reports/crash-2024-07-12_14.16.59-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/logs/2024-07-11-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/logs/2024-07-12-1.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/logs/2024-07-12-2.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/logs/2024-07-12-3.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/e5a660b6-9d51-36ee-858e-f73e02a3f36f.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jars/saves/McpWorld/stats/e5a660b6-9d51-36ee-858e-f73e02a3f36f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/StarClient_v1_0_1_Alpha__Minecraft1_8_8_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/StarClient_v1_0_1_Alpha__Minecraft1_8_8_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jars/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_nether.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/data/villages_nether.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/2210beb6-4dc2-38a8-8f45-f0cb49bb6846.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/2210beb6-4dc2-38a8-8f45-f0cb49bb6846.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/playerdata/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.-1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.0.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.1.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/region/r.2.1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/stats/2210beb6-4dc2-38a8-8f45-f0cb49bb6846.json" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/stats/2210beb6-4dc2-38a8-8f45-f0cb49bb6846.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/saves/McpWorld/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" beforeDir="false" afterPath="$PROJECT_DIR$/jars/saves/McpWorld/stats/8c1ef9e6-3632-3ca3-9eee-559f6e0a39df.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jars/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/jars/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/star/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/star/client/mod/ModManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/star/client/mod/ModManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/minecraft/client/gui/GuiChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/minecraft/client/gui/GuiChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/minecraft/client/renderer/EntityRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/minecraft/client/renderer/EntityRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/minecraft/client/renderer/ItemRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/minecraft/client/renderer/ItemRenderer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +64,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LiuStar2233"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LiuStar2233&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/LiuStar2233/StarClient.git&quot;,
@@ -50,25 +83,28 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2iEDUJRxvoKL9Cnzoe1D5UlznPX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Programme/JavaWorkSpace/StarClient&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.rainbow.brackets.lite&quot;,
-    &quot;应用程序.Main.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.StartSC.executor&quot;: &quot;JRebel Executor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Programme/JavaWorkSpace/StarClient",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.lite",
+    "应用程序.Main.executor": "Run",
+    "应用程序.StartSC.executor": "JRebel Executor"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
@@ -137,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720694319697</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="StarClient Alpha 1.0.1">
+      <option name="closed" value="true" />
+      <created>1720695573836</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720695573836</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +202,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
       <path value="$PROJECT_DIR$/.." />

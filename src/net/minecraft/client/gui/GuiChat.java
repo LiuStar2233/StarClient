@@ -1,5 +1,6 @@
 package net.minecraft.client.gui;
 
+import cn.star.client.util.UtilTools;
 import com.google.common.collect.Lists;
 import java.io.IOException;
 import java.util.List;
@@ -19,6 +20,8 @@ public class GuiChat extends GuiScreen
 {
     private static final Logger logger = LogManager.getLogger();
     private String historyBuffer = "";
+
+    int ChatY = 0;
 
     /**
      * keeps position of which chat message you will select when you press up, (does not increase for duplicated
@@ -300,7 +303,10 @@ public class GuiChat extends GuiScreen
      */
     public void drawScreen(int mouseX, int mouseY, float partialTicks)
     {
-        drawRect(2, this.height - 14, this.width - 2, this.height - 2, Integer.MIN_VALUE);
+        UtilTools.drawRect(2, this.height - ChatY, this.width - 2, this.height - 2, Integer.MIN_VALUE);
+        if (ChatY < 14) {
+            ChatY++;
+        }
         this.inputField.drawTextBox();
         IChatComponent ichatcomponent = this.mc.ingameGUI.getChatGUI().getChatComponent(Mouse.getX(), Mouse.getY());
 

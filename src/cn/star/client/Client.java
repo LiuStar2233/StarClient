@@ -9,13 +9,14 @@ import java.time.format.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/5/27 下午17:45
  */
 
 public class Client {
     public static final String NAME = "StarClient";
-    public static final String VERSION_FULL = "V1.0.1_Alpha";
+    public static final String VERSION_FULL = "V1.0.2_Alpha";
     public static final String CLIENT_TITLE = NAME + " | " + VERSION_FULL + " | Minecraft 1.8.8";
     public static final String CLIENT_NAME = Client.NAME + " | " + Client.VERSION_FULL;
     public static DateTimeFormatter Time_formatter = DateTimeFormatter.ofPattern("HH:mm:ss");

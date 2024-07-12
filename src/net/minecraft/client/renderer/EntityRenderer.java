@@ -2,6 +2,7 @@ package net.minecraft.client.renderer;
 
 import cn.star.client.Client;
 import cn.star.client.mod.Mod;
+import cn.star.client.mod.mods.render.NoHurtCameraMod;
 import com.google.common.base.Predicate;
 import com.google.common.base.Predicates;
 import com.google.gson.JsonSyntaxException;
@@ -584,6 +585,10 @@ public class EntityRenderer implements IResourceManagerReloadListener
 
     private void hurtCameraEffect(float partialTicks)
     {
+        if (Client.modManager.getByClass(NoHurtCameraMod.class).isEnable()) {
+            return;
+        }
+
         if (this.mc.getRenderViewEntity() instanceof EntityLivingBase)
         {
             EntityLivingBase entitylivingbase = (EntityLivingBase)this.mc.getRenderViewEntity();
