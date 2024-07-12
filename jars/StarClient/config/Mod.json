@@ -59,6 +59,14 @@
     "key": 0,
     "enable": true
   },
+  "NameLabel": {
+    "key": 0,
+    "enable": true
+  },
+  "NoHurtCamera": {
+    "key": 0,
+    "enable": true
+  },
   "SelectBlock": {
     "key": 34,
     "enable": true

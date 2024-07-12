@@ -59,6 +59,7 @@ public class ModManager {
         // render
         mods.add(new HitBoxMod());
         mods.add(new CapeMod());
+        mods.add(new NameLabelMod());
         mods.add(new NoHurtCameraMod());
         mods.add(new SelectBlockMod());
 

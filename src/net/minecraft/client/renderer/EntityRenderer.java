@@ -1366,6 +1366,8 @@ public class EntityRenderer implements IResourceManagerReloadListener
         this.setupFog(0, partialTicks);
         GlStateManager.shadeModel(7425);
 
+        Client.modManager.getEnableMods().forEach(it -> it.render(partialTicks));
+
         if (entity.posY + (double)entity.getEyeHeight() < 128.0D)
         {
             this.renderCloudsCheck(renderglobal, partialTicks, pass);
@@ -1476,7 +1478,7 @@ public class EntityRenderer implements IResourceManagerReloadListener
         GlStateManager.disableBlend();
         GlStateManager.disableFog();
 
-        Client.modManager.getEnableMods().forEach(Mod::render);
+        Client.modManager.getEnableMods().forEach(it -> it.render(partialTicks));
 
         if (entity.posY + (double)entity.getEyeHeight() >= 128.0D)
         {

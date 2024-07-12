@@ -25,7 +25,7 @@ public class HitBoxMod extends Mod {
     }
 
     @Override
-    public void render() {
+    public void render(float partialTicks) {
         for (Entity entity : MC.theWorld.loadedEntityList) {
             double renderPosX = MC.getRenderManager().renderPosX;
             double renderPosY = MC.getRenderManager().renderPosY;

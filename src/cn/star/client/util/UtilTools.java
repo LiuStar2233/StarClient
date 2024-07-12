@@ -5,11 +5,15 @@ import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
 import net.minecraft.client.gui.GuiNewChat;
 import net.minecraft.client.gui.ScaledResolution;
+import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.WorldRenderer;
+import net.minecraft.client.renderer.entity.RenderManager;
 import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+import net.minecraft.entity.Entity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.ChatComponentText;
+import org.lwjgl.opengl.GL11;
 
 /**
  * Created by IntelliJ IDEA
@@ -83,6 +87,57 @@ public class UtilTools {
         worldRenderer.pos(axisAlignedBB.maxX, axisAlignedBB.minY, axisAlignedBB.maxZ).endVertex();
 
         tessellator.draw();
+    }
+
+    public static void renderLabel(Entity entityIn, String str, int maxDistance, float partialTicks)
+    {
+        RenderManager renderManager = MC.getRenderManager();
+        double x = (entityIn.lastTickPosX + (entityIn.posX - entityIn.lastTickPosX) * (double)partialTicks) - renderManager.renderPosX;
+        double y = (entityIn.lastTickPosY + (entityIn.posY - entityIn.lastTickPosY) * (double)partialTicks) - renderManager.renderPosY;
+        double z = (entityIn.lastTickPosZ + (entityIn.posZ - entityIn.lastTickPosZ) * (double)partialTicks) - renderManager.renderPosZ;
+
+        double d0 = entityIn.getDistanceSqToEntity(MC.thePlayer);
+
+        if (d0 <= (double)(maxDistance * maxDistance))
+        {
+            float f = 1.6F;
+            float f1 = 0.016666668F * f;
+            GlStateManager.pushMatrix();
+            GlStateManager.translate((float)x + 0.0F, (float)y + entityIn.height + 0.5F, (float)z);
+            GL11.glNormal3f(0.0F, 1.0F, 0.0F);
+            GlStateManager.rotate(-renderManager.playerViewY, 0.0F, 1.0F, 0.0F);
+            GlStateManager.rotate(renderManager.playerViewX, 1.0F, 0.0F, 0.0F);
+            GlStateManager.scale(-f1, -f1, f1);
+            GlStateManager.disableLighting();
+            GlStateManager.depthMask(false);
+            GlStateManager.disableDepth();
+            GlStateManager.enableBlend();
+            GlStateManager.tryBlendFuncSeparate(770, 771, 1, 0);
+            Tessellator tessellator = Tessellator.getInstance();
+            WorldRenderer worldrenderer = tessellator.getWorldRenderer();
+            int i = 0;
+
+            if (str.equals("deadmau5"))
+            {
+                i = -10;
+            }
+
+            int j = fontRenderer.getStringWidth(str) / 2;
+            GlStateManager.disableTexture2D();
+            worldrenderer.begin(7, DefaultVertexFormats.POSITION_COLOR);
+            worldrenderer.pos((double)(-j - 1), (double)(-1 + i), 0.0D).color(0.0F, 0.0F, 0.0F, 0.25F).endVertex();
+            worldrenderer.pos((double)(-j - 1), (double)(8 + i), 0.0D).color(0.0F, 0.0F, 0.0F, 0.25F).endVertex();
+            worldrenderer.pos((double)(j + 1), (double)(8 + i), 0.0D).color(0.0F, 0.0F, 0.0F, 0.25F).endVertex();
+            worldrenderer.pos((double)(j + 1), (double)(-1 + i), 0.0D).color(0.0F, 0.0F, 0.0F, 0.25F).endVertex();
+            tessellator.draw();
+            GlStateManager.enableTexture2D();
+            fontRenderer.drawString(str, -fontRenderer.getStringWidth(str) / 2, i, 553648127);
+            GlStateManager.enableDepth();
+            GlStateManager.depthMask(true);
+            fontRenderer.drawString(str, -fontRenderer.getStringWidth(str) / 2, i, -1);
+            GlStateManager.disableBlend();
+            GlStateManager.popMatrix();
+        }
     }
 
     public static void PrintMessage(String message) {

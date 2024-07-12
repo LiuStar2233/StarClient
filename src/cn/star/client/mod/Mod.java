@@ -70,7 +70,7 @@ public class Mod {
 
     }
 
-    public void render() {
+    public void render(float partialTicks) {
 
     }
 
