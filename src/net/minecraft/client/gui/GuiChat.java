@@ -305,7 +305,7 @@ public class GuiChat extends GuiScreen
     {
         UtilTools.drawRect(2, this.height - ChatY, this.width - 2, this.height - 2, Integer.MIN_VALUE);
         if (ChatY < 14) {
-            ChatY++;
+            ChatY += 2;
         }
         this.inputField.drawTextBox();
         IChatComponent ichatcomponent = this.mc.ingameGUI.getChatGUI().getChatComponent(Mouse.getX(), Mouse.getY());

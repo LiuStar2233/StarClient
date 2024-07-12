@@ -6,9 +6,9 @@ draw:
     PosMod: NONE
     ClickGuiMod: NONE
     ModListMod: NONE
+    TargetInfoMod: NONE
     TabMod: Tab
     InventoryMod: C
-    TargetInfoMod: T
     KeyBoardMod: X
 movement:
     SprintMod: V
@@ -17,6 +17,8 @@ movement:
 render:
     CapeMod: NONE
     HitBoxMod:NONE
+    NameLabelMod: NONE
+    NoHurtCameraMod: NONE
     SelectBlock: G
 world:
     XRayMod: NONE

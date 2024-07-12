@@ -20,8 +20,8 @@ import static cn.star.client.util.UtilTools.*;
 public class TargetInfoMod extends Mod{
     public TargetInfoMod() {
         super("TargetInfo", Category.DRAW);
-        setKey(Keyboard.KEY_T);
-        setKeyboard("T");
+        setKey(Keyboard.KEY_NONE);
+        setKeyboard("NONE");
     }
 
     @Override
