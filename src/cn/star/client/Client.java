@@ -3,6 +3,7 @@ package cn.star.client;
 import cn.star.client.command.CommandManager;
 import cn.star.client.config.ConfigManager;
 import cn.star.client.mod.ModManager;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.opengl.Display;
 
 /**
@@ -23,6 +24,7 @@ public class Client {
     public static CommandManager commandManager;
 
     public static void start() {
+        UtilTools.PrintLog("Start The Client!!!", "Client Run/INFO");
         modManager = new ModManager();
         configManager = new ConfigManager();
         commandManager = new CommandManager();
@@ -30,12 +32,11 @@ public class Client {
         configManager.load();
         commandManager.load();
         Display.setTitle(CLIENT_TITLE);
-        MyLog.My_Log("Start The Client!!!", "Client Run/INFO");
     }
 
     public static void stop() {
         configManager.save();
         Display.setTitle(CLIENT_TITLE + " ShutDown Client...");
-        MyLog.My_Log("ShutDown The Client!!!", "Client Stop/INFO");
+        UtilTools.PrintLog("ShutDown The Client!!!", "Client Stop/INFO");
     }
 }
