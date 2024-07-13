@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.render;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.input.Keyboard;
 
 /**
@@ -16,6 +17,8 @@ public class CapeMod extends Mod{
         super("Cape", Category.RENDER);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("CapeMod Run...", "Mod Run/INFO");
     }
 
     static String Cape = "./client/Cape/Mojang.png";

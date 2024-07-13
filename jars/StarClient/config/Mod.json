@@ -41,7 +41,7 @@
   },
   "Sprint": {
     "key": 47,
-    "enable": false
+    "enable": true
   },
   "NoFall": {
     "key": 0,
@@ -53,7 +53,7 @@
   },
   "HitBox": {
     "key": 0,
-    "enable": false
+    "enable": true
   },
   "Cape": {
     "key": 0,

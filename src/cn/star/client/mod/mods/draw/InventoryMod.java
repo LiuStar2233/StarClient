@@ -13,6 +13,7 @@ import static cn.star.client.util.UtilTools.SR;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/6 下午4:46
  */
@@ -22,6 +23,8 @@ public class InventoryMod extends Mod {
         super("Inventory", Category.DRAW);
         setKey(Keyboard.KEY_C);
         setKeyboard("C");
+
+        UtilTools.PrintLog("InventoryMod Run...", "Mod Run/INFO");
     }
 
     @Override

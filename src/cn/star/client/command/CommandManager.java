@@ -3,11 +3,13 @@ package cn.star.client.command;
 import cn.star.client.command.commands.EnableCommand;
 import cn.star.client.command.commands.HelpCommand;
 import cn.star.client.command.commands.KeyBoardCommand;
+import cn.star.client.util.UtilTools;
 
 import java.util.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/3 下午7:45
  */
@@ -22,6 +24,8 @@ public class CommandManager {
         commandMap.put(helpCommand.getKey(), helpCommand);
         commandMap.put(enableCommand.getKey(), enableCommand);
         commandMap.put(keyBoardCommand.getKey(), keyBoardCommand);
+
+        UtilTools.PrintLog("CommandManager Run...", "Command Run/INFO");
     }
 
     public boolean run(String message) {

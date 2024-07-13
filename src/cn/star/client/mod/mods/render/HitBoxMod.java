@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.render;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.entity.EntityPlayerSP;
 import net.minecraft.client.renderer.RenderGlobal;
 import net.minecraft.entity.Entity;
@@ -13,6 +14,7 @@ import static cn.star.client.util.UtilTools.MC;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/3 下午10:03
  */
@@ -22,6 +24,8 @@ public class HitBoxMod extends Mod {
         super("HitBox", Category.RENDER);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("HitBoxMod Run...", "Mod Run/INFO");
     }
 
     @Override

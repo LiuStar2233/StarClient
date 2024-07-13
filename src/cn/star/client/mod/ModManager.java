@@ -6,6 +6,7 @@ import cn.star.client.mod.mods.draw.*;
 import cn.star.client.mod.mods.movement.*;
 import cn.star.client.mod.mods.render.*;
 import cn.star.client.mod.mods.world.*;
+import cn.star.client.util.UtilTools;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,6 +69,8 @@ public class ModManager {
         mods.add(new FallWaterMod());
         mods.add(new XRayMod());
         mods.add(new AutoMineMod());
+
+        UtilTools.PrintLog("ModManager Run...", "Mod Run/INFO");
     }
 
     public Mod getByName(String name) {

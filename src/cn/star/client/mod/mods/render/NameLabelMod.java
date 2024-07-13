@@ -22,6 +22,8 @@ public class NameLabelMod extends Mod{
         super("NameLabel", Category.RENDER);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("NameLabelMod Run...", "Mod Run/INFO");
     }
 
     @Override

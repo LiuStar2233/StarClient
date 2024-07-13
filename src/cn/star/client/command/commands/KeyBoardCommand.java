@@ -3,6 +3,7 @@ package cn.star.client.command.commands;
 import cn.star.client.Client;
 import cn.star.client.command.Command;
 import cn.star.client.mod.Mod;
+import cn.star.client.util.UtilTools;
 
 import java.util.Arrays;
 
@@ -18,6 +19,8 @@ import static cn.star.client.util.UtilTools.PrintMessage;
 public class KeyBoardCommand extends Command{
     public KeyBoardCommand() {
         super(new String[]{"k", "key", "keyboard ", "K", "KEY", "KEYBOARD"});
+
+        UtilTools.PrintLog("KeyBoardCommand Run...", "Command Run/INFO");
     }
 
     @Override

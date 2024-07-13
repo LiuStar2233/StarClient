@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.movement;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.gui.GuiChat;
 import net.minecraft.client.settings.GameSettings;
 import net.minecraft.client.settings.KeyBinding;
@@ -21,6 +22,8 @@ public class InventoryMoveMod extends Mod{
         super("InventoryMove",Category.MOVEMENT);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("InventoryMoveMod Run...", "Mod Run/INFO");
     }
 
     @Override

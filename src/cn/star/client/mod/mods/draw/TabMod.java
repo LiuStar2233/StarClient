@@ -3,6 +3,7 @@ package cn.star.client.mod.mods.draw;
 import cn.star.client.Client;
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.gui.Gui;
 import org.lwjgl.input.Keyboard;
 
@@ -13,6 +14,7 @@ import static cn.star.client.util.UtilTools.fontRenderer;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/4 下午7:40
  */
@@ -31,6 +33,8 @@ public class TabMod extends Mod {
         super("Tab", Category.DRAW);
         setKey(Keyboard.KEY_TAB);
         setKeyboard("TAB");
+
+        UtilTools.PrintLog("TabMod Run...", "Mod Run/INFO");
     }
 
     @Override

@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.draw;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.gui.inventory.GuiInventory;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
@@ -13,6 +14,7 @@ import static cn.star.client.util.UtilTools.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/7 下午5:46
  */
@@ -22,6 +24,8 @@ public class TargetInfoMod extends Mod{
         super("TargetInfo", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("TargetInfoMod Run...", "Mod Run/INFO");
     }
 
     @Override

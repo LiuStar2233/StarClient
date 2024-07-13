@@ -53,3 +53,7 @@ This repository is licensed under BSD license.
 ### v1.0.2_Alpha
 
 1. Added modules such as NameLabel.
+
+### v1.0.3_Alpha
+
+1. Updated the logging system.

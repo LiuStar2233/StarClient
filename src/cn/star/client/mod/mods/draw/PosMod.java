@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.draw;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.entity.EntityPlayerSP;
 import org.lwjgl.input.Keyboard;
 
@@ -11,6 +12,7 @@ import static cn.star.client.util.UtilTools.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/7 下午4:06
  */
@@ -20,6 +22,8 @@ public class PosMod extends Mod{
         super("Pos", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("PosMod Run...", "Mod Run/INFO");
     }
 
     public String getPlayerPos() {

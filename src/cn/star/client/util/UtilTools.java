@@ -1,5 +1,6 @@
 package cn.star.client.util;
 
+import cn.star.client.MyLog;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;
 import net.minecraft.client.gui.Gui;
@@ -24,6 +25,7 @@ import org.lwjgl.opengl.GL11;
 public class UtilTools {
     public static void drawRect(int x, int y, int width, int height, int color) {
         Gui.drawRect(x, y, x + width, y + height, color);
+        MyLog.My_Log("DrawRect...", "Draw/INFO");
     }
 
     public static void drawCube(final AxisAlignedBB axisAlignedBB) {
@@ -87,6 +89,8 @@ public class UtilTools {
         worldRenderer.pos(axisAlignedBB.maxX, axisAlignedBB.minY, axisAlignedBB.maxZ).endVertex();
 
         tessellator.draw();
+
+        MyLog.My_Log("DrawCube...", "Draw/INFO");
     }
 
     public static void renderLabel(Entity entityIn, String str, int maxDistance, float partialTicks)
@@ -137,12 +141,20 @@ public class UtilTools {
             fontRenderer.drawString(str, -fontRenderer.getStringWidth(str) / 2, i, -1);
             GlStateManager.disableBlend();
             GlStateManager.popMatrix();
+
+            MyLog.My_Log("Render Label...", "Render/INFO");
         }
     }
 
     public static void PrintMessage(String message) {
         GuiNewChat Chat = MC.ingameGUI.getChatGUI();
         Chat.printChatMessage(new ChatComponentText(message));
+
+        MyLog.My_Log("Print Chat Message...", "Chat/INFO");
+    }
+
+    public static void PrintLog(String message, String type) {
+        MyLog Log = MyLog.My_Log(message, type);
     }
 
     public static Minecraft MC = Minecraft.getMinecraft();

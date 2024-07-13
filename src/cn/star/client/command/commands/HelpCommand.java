@@ -1,13 +1,10 @@
 package cn.star.client.command.commands;
 
 import cn.star.client.command.Command;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiNewChat;
-import net.minecraft.util.ChatComponentText;
+import cn.star.client.util.UtilTools;
 
 import java.util.Arrays;
 
-import static cn.star.client.util.UtilTools.MC;
 import static cn.star.client.util.UtilTools.PrintMessage;
 
 /**
@@ -19,6 +16,8 @@ import static cn.star.client.util.UtilTools.PrintMessage;
 public class HelpCommand extends Command {
     public HelpCommand() {
         super(new String[]{"h", "help", "H", "HELP", "?"});
+
+        UtilTools.PrintLog("HelpCommand Run...", "Command Run/INFO");
     }
 
     @Override

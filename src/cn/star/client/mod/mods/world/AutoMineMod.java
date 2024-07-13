@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.world;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.MovingObjectPosition;
@@ -23,6 +24,8 @@ public class AutoMineMod extends Mod{
         super("AutoMine", Category.WORLD);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("AutoMineMod Run...", "Mod Run/INFO");
     }
 
     @Override

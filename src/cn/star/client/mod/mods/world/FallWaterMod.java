@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.world;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MovingObjectPosition;
@@ -21,6 +22,8 @@ public class FallWaterMod extends Mod{
         super("FallWater", Category.WORLD);
         setKey(Keyboard.KEY_Z);
         setKeyboard("Z");
+
+        UtilTools.PrintLog("FallWaterMod Run...", "Mod Run/INFO");
     }
 
     @Override

@@ -1,6 +1,7 @@
 package cn.star.client.config;
 
 import cn.star.client.config.configs.ModConfig;
+import cn.star.client.util.UtilTools;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,6 +10,7 @@ import java.util.List;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/2 下午9:31
  */
@@ -26,6 +28,8 @@ public class ConfigManager {
                 config.load();
             }
         }
+
+        UtilTools.PrintLog("ConfigManager Loading...", "Config Run/INFO");
     }
 
     public void save() {
@@ -40,5 +44,7 @@ public class ConfigManager {
             }
             config.save();
         }
+
+        UtilTools.PrintLog("ConfigManager Saving...", "Config Run/INFO");
     }
 }

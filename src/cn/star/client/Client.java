@@ -4,8 +4,6 @@ import cn.star.client.command.CommandManager;
 import cn.star.client.config.ConfigManager;
 import cn.star.client.mod.ModManager;
 import org.lwjgl.opengl.Display;
-import java.time.*;
-import java.time.format.*;
 
 /**
  * Created by IntelliJ IDEA
@@ -16,21 +14,13 @@ import java.time.format.*;
 
 public class Client {
     public static final String NAME = "StarClient";
-    public static final String VERSION_FULL = "V1.0.2_Alpha";
+    public static final String VERSION_FULL = "V1.0.3_Alpha";
     public static final String CLIENT_TITLE = NAME + " | " + VERSION_FULL + " | Minecraft 1.8.8";
     public static final String CLIENT_NAME = Client.NAME + " | " + Client.VERSION_FULL;
-    public static DateTimeFormatter Time_formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
 
     public static ModManager modManager;
     public static ConfigManager configManager;
     public static CommandManager commandManager;
-
-    public static void My_Log(String Log, String Type) {
-        LocalTime time = LocalTime.now();
-        String OutPut_Log = "[" + time.format(Time_formatter) + "]";
-        String OutPut_Type = " [" + Type + "]";
-        System.out.println("\033[36m" + OutPut_Log + OutPut_Type + ": " + Log + "\033[0m");
-    }
 
     public static void start() {
         modManager = new ModManager();
@@ -40,12 +30,12 @@ public class Client {
         configManager.load();
         commandManager.load();
         Display.setTitle(CLIENT_TITLE);
-        My_Log("Start The Client!!!", "Client Run/INFO");
+        MyLog.My_Log("Start The Client!!!", "Client Run/INFO");
     }
 
     public static void stop() {
         configManager.save();
         Display.setTitle(CLIENT_TITLE + " ShutDown Client...");
-        My_Log("ShutDown The Client!!!", "Client Stop/INFO");
+        MyLog.My_Log("ShutDown The Client!!!", "Client Stop/INFO");
     }
 }

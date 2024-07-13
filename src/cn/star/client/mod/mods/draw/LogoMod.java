@@ -3,6 +3,7 @@ package cn.star.client.mod.mods.draw;
 import cn.star.client.Client;
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.input.Keyboard;
 
 import java.awt.*;
@@ -11,6 +12,7 @@ import static cn.star.client.util.UtilTools.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/5/27 下午17:45
  */
@@ -20,6 +22,8 @@ public class LogoMod extends Mod {
         super("Logo", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("LogoMod Run...", "Mod Run/INFO");
     }
 
     @Override

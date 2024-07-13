@@ -2,6 +2,7 @@ package cn.star.client.command;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/3 下午7:46
  */

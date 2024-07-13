@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.combat;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import org.lwjgl.input.Keyboard;
@@ -10,6 +11,7 @@ import static cn.star.client.util.UtilTools.MC;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/7 下午4:20
  */
@@ -19,6 +21,8 @@ public class AutoAttackMod extends Mod{
         super("AutoAttack", Category.COMBAT);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("AutoAttackMod Run...", "Mod Run/INFO");
     }
 
     @Override

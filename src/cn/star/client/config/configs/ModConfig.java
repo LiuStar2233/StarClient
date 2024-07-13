@@ -3,6 +3,7 @@ package cn.star.client.config.configs;
 import cn.star.client.Client;
 import cn.star.client.config.Config;
 import cn.star.client.mod.Mod;
+import cn.star.client.util.UtilTools;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
@@ -10,15 +11,18 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
-/*
+/**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
- * @create 2024/7/2 下午9:31
+ * {@code @create} 2024/7/2 下午9:31
  */
 
 public class ModConfig extends Config {
     public ModConfig() {
         super("Mod");
+
+        UtilTools.PrintLog("ModConfig Run...", "Config Run/INFO");
     }
 
     @Override
@@ -36,7 +40,7 @@ public class ModConfig extends Config {
             throw new RuntimeException(e);
         }
 
-        System.out.println("\033[32mSave Mod Config...\033[0m");
+        UtilTools.PrintLog("Save Mod Config...", "Config Save/INFO");
     }
 
     @Override
@@ -59,6 +63,6 @@ public class ModConfig extends Config {
             throw new RuntimeException(e);
         }
 
-        System.out.println("\033[32mLoad Mod Config...\033[0m");
+        UtilTools.PrintLog("Load Mod Config...", "Config Load/INFO");
     }
 }

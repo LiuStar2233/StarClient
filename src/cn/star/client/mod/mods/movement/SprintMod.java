@@ -2,12 +2,14 @@ package cn.star.client.mod.mods.movement;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.input.Keyboard;
 
 import static cn.star.client.util.UtilTools.MC;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/5/27 下午17:45
  */
@@ -17,6 +19,8 @@ public class SprintMod extends Mod {
         super("Sprint", Category.MOVEMENT);
         setKey(Keyboard.KEY_V);
         setKeyboard("V");
+
+        UtilTools.PrintLog("SprintMod Run...", "Mod Run/INFO");
     }
 
     @Override

@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.draw;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.settings.GameSettings;
 import org.lwjgl.input.Keyboard;
 
@@ -11,6 +12,7 @@ import static cn.star.client.util.UtilTools.*;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/7/8 下午1:57
  */
@@ -21,6 +23,8 @@ public class KeyBoardMod extends Mod{
         super("KeyBoard", Category.DRAW);
         setKey(Keyboard.KEY_X);
         setKeyboard("X");
+
+        UtilTools.PrintLog("KeyBoardMod Run...", "Mod Run/INFO");
     }
 
     @Override

@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.movement;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import net.minecraft.network.play.client.C03PacketPlayer;
 import org.lwjgl.input.Keyboard;
 
@@ -19,6 +20,8 @@ public class NoFallMod extends Mod{
         super("NoFall", Category.MOVEMENT);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("NoFallMod Run...", "Mod Run/INFO");
     }
 
     @Override

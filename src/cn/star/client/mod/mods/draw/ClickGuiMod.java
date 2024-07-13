@@ -1,9 +1,9 @@
 package cn.star.client.mod.mods.draw;
 
-import cn.star.client.Client;
 import cn.star.client.gui.clickGui.ClickGui;
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.input.Keyboard;
 
 import static cn.star.client.util.UtilTools.MC;
@@ -20,6 +20,8 @@ public class ClickGuiMod extends Mod{
         super("ClickGui", Category.DRAW);
         setKey(Keyboard.KEY_NONE);
         setKeyboard("NONE");
+
+        UtilTools.PrintLog("ClickGuiMod Run...", "Mod Run/INFO");
     }
 
     @Override

@@ -2,6 +2,7 @@ package cn.star.client.mod.mods.render;
 
 import cn.star.client.mod.Mod;
 import cn.star.client.mod.mods.Category;
+import cn.star.client.util.UtilTools;
 import org.lwjgl.input.Keyboard;
 
 /**
@@ -16,5 +17,7 @@ public class SelectBlockMod extends Mod{
         super("SelectBlock", Category.RENDER);
         setKey(Keyboard.KEY_G);
         setKeyboard("G");
+
+        UtilTools.PrintLog("SelectBlockMod Run...", "Mod Run/INFO");
     }
 }

@@ -1,6 +1,7 @@
 package cn.star.client.gui;
 
 import cn.star.client.Client;
+import cn.star.client.util.UtilTools;
 import net.minecraft.client.gui.*;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.util.ResourceLocation;
@@ -13,6 +14,7 @@ import static cn.star.client.util.UtilTools.fontRenderer;
 
 /**
  * Created by IntelliJ IDEA
+ *
  * @author LiuStar2233
  * {@code @create} 2024/6/30 下午5:32
  */
@@ -32,6 +34,8 @@ public class MainMenuGui extends GuiScreen {
         this.buttonList.add(new GuiButton(4, this.width / 2 + 2, j + 72 + 12, 98, 20, I18n.format("menu.quit")));
         this.buttonList.add(new GuiButton(1, this.width / 2 - 100, j, I18n.format("menu.singleplayer")));
         this.buttonList.add(new GuiButton(2, this.width / 2 - 100, j + i, I18n.format("menu.multiplayer")));
+
+        UtilTools.PrintLog("MainMenu Run...", "Gui Run/INFO");
     }
 
     @Override

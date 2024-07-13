@@ -3,12 +3,10 @@ package cn.star.client.command.commands;
 import cn.star.client.Client;
 import cn.star.client.command.Command;
 import cn.star.client.mod.Mod;
-import net.minecraft.client.gui.GuiNewChat;
-import net.minecraft.util.ChatComponentText;
+import cn.star.client.util.UtilTools;
 
 import java.util.Arrays;
 
-import static cn.star.client.util.UtilTools.MC;
 import static cn.star.client.util.UtilTools.PrintMessage;
 
 /**
@@ -20,6 +18,8 @@ import static cn.star.client.util.UtilTools.PrintMessage;
 public class EnableCommand extends Command {
     public EnableCommand() {
         super(new String[]{"e", "enable", "E", "ENABLE"});
+
+        UtilTools.PrintLog("EnableCommand Run...", "Command Run/INFO");
     }
 
     @Override
