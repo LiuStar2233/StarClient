@@ -1,3 +1,5 @@
+# This project has been discontinued and is currently archived. The author is developing StarClient 1.8.9 and StarFlow 1.8.9, so please stay tuned.
+
 ## Introduction to the work
 
 1. This is a project developed to learn how Minecraft works.
