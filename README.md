@@ -1,4 +1,4 @@
-# This project has been discontinued and is currently archived. The author is developing StarClient 1.8.9 and StarFlow 1.8.9, so please stay tuned.
+# This project has been discontinued and is currently archived. The author is developing StarFlow-1.8.9, so please stay tuned.
 
 ## Introduction to the work
 
